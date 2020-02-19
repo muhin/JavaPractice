@@ -23,9 +23,9 @@ public class Person {
 		this.gender = gender;
 	}
 	
-//	public Person() {
-//		System.out.println("In person default constructor");
-//	}
+	public Person() {
+		System.out.println("In person default constructor");
+	}
 	
 	public Person(String name) {
 		System.out.println("In person 2nd constructor. Name is set.");
